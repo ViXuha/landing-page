@@ -1,5 +1,5 @@
 *{
- font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -12,8 +12,13 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 24px;
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.header h1{
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 a {
@@ -23,8 +28,20 @@ a {
 }
 
 h2{
-   font-size: 48px;
-   color: #f9faf8;
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.description{
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.description p { 
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .links{
@@ -34,21 +51,23 @@ h2{
 }
 
 .image-max{ 
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 500px;
+    display: flex;
+    object-fit: cover;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 
 .main-image{
-    flex-basis: 600px;
-
+    display: flex;
 }
+
 .section1{
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding-left: 7%;
-    padding-right: 7%;
-
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 button{
@@ -59,4 +78,18 @@ button{
     font-weight: 25px;
     padding: 10px 30px;
     border: 0px;
+}
+.Break{
+    background-color: #1f2937;
+    padding: 25px;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+}
+
+.section3{
+    display: flex;
+    flex-direction: row;
 }
