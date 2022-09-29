@@ -57,13 +57,15 @@ h3{
 
 .image-max{ 
     max-width: 500px;
-    display: flex;
-    object-fit: cover;
     border-radius: 15px;
 }
 
-.main-image{
-    display: flex;
+
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    flex: 1 1 auto;
 }
 
 .section1{
@@ -103,15 +105,17 @@ button{
 }
 
 .wrapper{
-    border: 5px solid #3882f6;
+    border: 3px solid #3882f6;
     border-radius: 15px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;  
+    overflow: hidden;
 }
 
+
 .textwrap{
-    width: 150px;
-    height: 150px;  
+    width: 200px;
+    height: 200px;  
 }
 
 .section4{
