@@ -105,7 +105,7 @@ button{
 }
 
 .wrapper{
-    border: 3px solid #3882f6;
+    border: 5px solid #3882f6;
     border-radius: 15px;
     width: 200px;
     height: 200px;  
@@ -114,14 +114,112 @@ button{
 
 
 .textwrap{
-    width: 200px;
-    height: 200px;  
+    width: 200px; 
 }
 
+
+.textwrap p{
+    font-size: 18px;
+    color: #727272;
+}
 .section4{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    background-color: #e5e7eb;
     padding-left: 12%;
     padding-right: 12%;
+}
+
+.section4 p{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 0%;
+
+}
+
+.section4 h1{
+    font-size: 26px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-left: auto;
+    margin-top: 2%;
+
+}
+
+.Break1{
+    padding: 15px;
+}
+
+.section5{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.left-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper2{
+    flex-grow: 2;
+    display: flex;
+    background-color: #3882f6;
+    flex-direction: row;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.wrapper2 h1{ 
+    color: #f9faf8;
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+
+.wrapper2 p{ 
+    color: #f9faf8;
+    margin-top: 2%;
+}
+
+.wrapper2 button{
+    display: inline-flex;
+    border-radius: 10px;
+    font-weight: 25px;
+    padding: 10px 30px;
+    border: 2px solid #f9faf8;
+    flex-shrink: 0;
+}
+
+.call{
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer h1{
+    font-size: 12px;
+    font-weight: lighter;
 }
